@@ -1,0 +1,94 @@
+#main {
+    font-family: Calibri, sans-serif;
+    background-color: rgba(230, 225, 225, 0.578);
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#title {
+    font-size: 4em;
+}
+
+#little-desc {
+    font-size: 1.4em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#img-div {
+    background-color: #FFF;
+    padding: 50px 30px 10px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-caption {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #img-div {
+        padding: 30px 20px 10px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #img-caption {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #img-div {
+        padding: 30px 20px 10px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #img-div {
+        padding: 30px 20px 10px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+#tribute-info {
+    margin: auto;
+    width: 50%;
+}
+
+#tribute-info ul {
+    font-size: 1.2em;
+}
+
+#tribute-info li {
+    text-align: justify;
+}
+
+#fig-quote {
+    padding: 20px;
+    width: auto;
+}
+
+#quote {
+    font-size: 1.7em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#link-bio {
+    font-size: 1.4em;
+}
